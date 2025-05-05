@@ -798,8 +798,8 @@ namespace HelloWorld
                 Console.WriteLine("The 'try catch' is finished.");
             }
 
-            checkAge(15);
             checkAge(20);
+            checkAge(15); // Unhandled exception. System.ArithmeticException: Access denied - You must be at least 18 years old.
         }
 
         // Methods
